@@ -51,7 +51,7 @@ kubectl apply \
 curl -o v2_2_0_full.yaml https://raw.githubusercontent.com/kubernetes-sigs \
 /aws-load-balancer-controller/v2.2.0/docs/install/v2_2_0_full.yaml
 ```
-1.7 将v2_2_0_full.yaml中的cluster-name替换成实际环境的值
+1.7 将v2_2_0_full.yaml中的CLUSTER_NAME替换成实际环境的值
 
 ```
 spec:
